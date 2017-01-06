@@ -1,7 +1,8 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(eddie.png) bottom center;
   background-size: cover;
+  background-color: #000;
 }
 body,html {
   margin: 0;
@@ -18,7 +19,7 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid white;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -27,14 +28,14 @@ body,html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0,0,0,0.7);
   text-shadow: 0 0 .5rem black;
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  transform: scale(1.5);
+  border-color: #000;
+  box-shadow: 0 0 .5rem #000;
 }
 
 kbd {
